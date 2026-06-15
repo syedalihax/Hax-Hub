@@ -1,0 +1,6 @@
+{
+  "name": "Hax Hub",
+  "description": "An elegant, clean-cut corporate modern full-stack blogging platform for sharing tech, hacks, lifestyle, coding, and personal growth insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

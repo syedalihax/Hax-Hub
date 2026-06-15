@@ -1,16 +1,43 @@
-# React + Vite
+# InsightHub — Vibrant Magazine Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A colorful, high-contrast, modern full-stack blogging platform styling a creative **Vibrant Palette** theme (Neo-Brutalist inspired layout with thick black borders, vivid highlights, and responsive page flow).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technical Architecture
 
-## React Compiler
+InsightHub is designed to represent a robust **Full-Stack SPA Architecture** supporting zero-latency browser communication:
+* **Frontend Sandbox**: React 19 Client application coupled with Tailwind CSS 4 utility layout selectors, customizable category identifiers, and responsive typography guidelines.
+* **Server-Side Sandbox**: Highly efficient Express 4 production-grade core router equipped with session token authentication, base64 visual file uploads directly into the server filesystem, and automatic view count aggregations.
+* **Storage Matrix**: Flat JSON storage systems loaded instantly inside the `/data` directory, guaranteeing full data persistence across container updates other than simulated database restarts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Unique Features Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Unified Search Matrix
+* Look up publications matching Title, Excerpt, or Story words instantly from the sticky navigation bar or mobile-only drop indices.
+
+### 2. Verified Opinion Comments Stream
+* Authenticated users can submit, sort, and cache comments, labeled with verification markers and user avatars on the fly.
+
+### 3. Integrated Rich Content Editor
+* Visual editor supporting structured elements (`H2`, `H3`, `Strong`, `Quote`, List formats, Links) and inline Base64 direct local image loads within paragraph text.
+
+### 4. Interactive Bento Dashboard metrics
+* View publication statistics including total likes gained, page clicks/reads received, and draft statuses securely.
+
+---
+
+## Execution Guide
+
+To initialize and run this platform:
+1. Ensure all packages are installed:
+   ```bash
+   npm install
+   ```
+2. Initialize developer sandbox:
+   ```bash
+   npm run dev
+   ```
+3. Open output page in your designated standard browser tab.
